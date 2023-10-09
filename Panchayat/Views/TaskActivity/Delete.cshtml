@@ -1,0 +1,50 @@
+﻿@model Panchayat.Models.TaskActivity
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+
+
+<h3 class="text-danger">Are you sure you want to delete this?</h3>
+<div>
+
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Activity No</th>
+                <th>Activity Name</th>
+                <th>Description</th>
+                <th>Date</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    @Html.DisplayFor(model => model.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.Name)
+                </td>
+                <td style="width : 500px">
+                    @Html.DisplayFor(model => model.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.Date)
+                </td>
+                <td>
+                    <form asp-action="Delete">
+                        <input type="submit" value="Delete" class="btn btn-danger" />
+                        <button class="btn btn-secondary">
+                            <a class="text-decoration-none text-light" asp-action="Index">Back</a>
+                        </button>
+                    </form>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <dl class="row">
+    </dl>
+
+</div>

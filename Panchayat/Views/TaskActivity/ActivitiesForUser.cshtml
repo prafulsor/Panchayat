@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Panchayat.Models.TaskActivity>
+
+@{
+    ViewData["Title"] = "ActivitiesForUser";
+}
+
+<h3 class="text-center mt-5"><span class="text-light shadow rounded-3 bg-success p-2">Activities</span></h3>
+
+<div class="row mt-5 justify-content-center">
+    <div class="col-sm-12 col-md-5 d-flex">
+
+        @foreach (var item in Model)
+        {
+            <div class="card ms-2 shadow me-2" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
+                    <div>
+                        <a asp-controller="PanchayatActivities" asp-action="ActivityDetailsForUser" class="text-decoration-none">@Html.ActionLink("Read more...", "ActivityDetailsForUser", new { item.Id }, new{@class = "text-decoration-none"})</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+<div class="d-flex justify-content-center mt-5 ">
+    <button style="width:120px" class="btn btn-secondary shadow"><a class="text-decoration-none text-light" asp-controller="Signups" asp-action="Index">Back</a></button>
+</div>

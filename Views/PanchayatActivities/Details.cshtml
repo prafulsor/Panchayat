@@ -1,0 +1,45 @@
+﻿@model Panchayat.Models.PanchayatActivity
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1 class="text-success">Details</h1>
+
+<div>
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Activity No</th>
+                <th>Activity Name</th>
+                <th>Description</th>
+                <th>Date</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    @Html.DisplayFor(model => model.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.Name)
+                </td>
+                <td style="width : 500px">
+                    @Html.DisplayFor(model => model.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.Date)
+                </td>
+                <td>
+                    <button class="btn btn-success">
+                    @Html.ActionLink("Edit", "Edit", new { Model.Id }, new {@class = "text-decoration-none text-light" })
+                    </button>
+                    <button class="btn btn-secondary shadow">
+                        <a class="text-decoration-none text-light" asp-action="Index">Back</a>
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

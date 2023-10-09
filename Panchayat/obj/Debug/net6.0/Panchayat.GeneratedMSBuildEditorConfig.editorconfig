@@ -1,0 +1,97 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Panchayat
+build_property.RootNamespace = Panchayat
+build_property.ProjectDir = C:\Users\HP\Downloads\Panchayat\Panchayat\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\HP\Downloads\Panchayat\Panchayat
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/HP/Downloads/Panchayat/Panchayat/Views/Admins/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Downloads/Panchayat/Panchayat/Views/Admins/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Downloads/Panchayat/Panchayat/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Downloads/Panchayat/Panchayat/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Downloads/Panchayat/Panchayat/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Downloads/Panchayat/Panchayat/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Downloads/Panchayat/Panchayat/Views/Signups/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnbnVwc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Downloads/Panchayat/Panchayat/Views/Signups/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnbnVwc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Downloads/Panchayat/Panchayat/Views/Signups/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnbnVwc1xMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Downloads/Panchayat/Panchayat/Views/TaskActivity/ActivitiesForUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza0FjdGl2aXR5XEFjdGl2aXRpZXNGb3JVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Downloads/Panchayat/Panchayat/Views/TaskActivity/ActivityDetailsForUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza0FjdGl2aXR5XEFjdGl2aXR5RGV0YWlsc0ZvclVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Downloads/Panchayat/Panchayat/Views/TaskActivity/AdminPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza0FjdGl2aXR5XEFkbWluUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Downloads/Panchayat/Panchayat/Views/TaskActivity/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza0FjdGl2aXR5XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Downloads/Panchayat/Panchayat/Views/TaskActivity/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza0FjdGl2aXR5XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Downloads/Panchayat/Panchayat/Views/TaskActivity/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza0FjdGl2aXR5XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Downloads/Panchayat/Panchayat/Views/TaskActivity/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza0FjdGl2aXR5XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Downloads/Panchayat/Panchayat/Views/TaskActivity/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza0FjdGl2aXR5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Downloads/Panchayat/Panchayat/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Downloads/Panchayat/Panchayat/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Downloads/Panchayat/Panchayat/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-wnjnklhmnc

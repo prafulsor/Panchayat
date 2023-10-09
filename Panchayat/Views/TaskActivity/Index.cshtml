@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Panchayat.Models.TaskActivity>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h3 class="text-center mt-5"><span class="bg-success shadow p-2 rounded-3 text-light">Activities</span></h3>
+
+<div class="row justify-content-center">
+
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>
+                    Activity No
+                </th>
+                <th>
+                    Activity Name
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Date)
+                </th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td style="width:500px">
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Date)
+                    </td>
+                    <td>
+                        <button class="btn btn-success">
+                            @Html.ActionLink("Edit", "Edit", new { item.Id }, new{@class = "text-light text-decoration-none"})
+                        </button>
+                        <button class="btn btn-warning">
+                            @Html.ActionLink("Details", "Details", new { item.Id }, new{@class = "text-light text-decoration-none"})
+                        </button>
+                        <button class="btn btn-danger">
+                            @Html.ActionLink("Delete", "Delete", new { item.Id }, new{@class = "text-light text-decoration-none"})
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<div class="d-flex justify-content-center">
+    <button style="width:120px" class="btn btn-primary me-2">
+        <a class="text-decoration-none text-light" asp-action="Create">Add Activity</a>
+    </button>
+    <button style="width:120px" class="btn btn-secondary"><a class="text-decoration-none text-light" asp-controller="PanchayatActivities" asp-action="AdminPage">Back</a></button>
+</div>
